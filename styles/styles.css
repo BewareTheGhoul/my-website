@@ -1,0 +1,30 @@
+body {
+    background: black;
+    image-rendering: pixelated;
+    color: white;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(0, 68, 255);
+}
+
+a:visited {
+    color: rgb(196, 1, 196);
+}
+
+a:active {
+    color: rgb(0, 174, 255);
+}
+
+.midiinfo {
+    margin: auto;
+    background-color: rgb(28, 24, 61);
+    width: 256px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
