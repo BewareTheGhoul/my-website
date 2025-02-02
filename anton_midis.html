@@ -1,84 +1,108 @@
-﻿<!doctype html>
-
-<html lang="en-US">
-
-	<head>
-		<meta charset="utf-8" />
-		<title>IT'S HAPPY HOUR!!!</title>
-        <link rel="stylesheet" href="styles/antonstyle.css" />
-        <link rel="icon" href="assets/images/iconblast.png" type="image/x-icon" />
-	</head>
-
-	<body>
-        <img src="assets/images/jewel banner.png"
-        class="banner"
-        title="Hey there, shiny!"
-        width="700" height="700"
-        alt="Who's this handsome fellow?" />
-
-        <p>
-            <a href="https://www.youtube.com/@spurrit7156">my youtube thing</a>
-        </p>
-
-        <h1>ANTON COLLECTION!! (hopefully more to come, also credit me pls)</h1>
-
-        <div class="midiinfo">
-            <p>Main Menu - Antonball Deluxe</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_antontitle_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_antontitle_pc.mid">download</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>Sewer Slam/Dot Matrix</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_antonsewers_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_antonsewers_pc.mid">download</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>Dynamite Man... in Boiler City!</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_antonlevel_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_antonlevel_pc.mid">download</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>The Hammer and the Mace... in Slowroast Sewers!</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_antonlevel2_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_antonlevel2_pc.mid">download</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>Here Comes The Bucket Brigade ...Beat the Bossbusters!</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_antonboss_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_antonboss_pc.mid">download</a>
-            </p>
-        </div>
-
-        <p>
-            <a href="index.html">Back to Spamton Collection</a>
-        </p>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey there, Shiny!</title>
+    <link rel="icon" href="assets/images/iconblast.png">
+    <style>
+        body {
+            background-color: #3b1c1c;
+            color: #ffd700;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('assets/images/jewel banner.png') no-repeat center;
+            background-size: cover;
+            height: 300px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .song-list {
+            list-style: none;
+            padding: 0;
+        }
+        .song-list li {
+            background: #5a2929;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+        a {
+            color: #ff4500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #ff4500;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .back-button:hover {
+            background: #cc3700;
+        }
+        .corner-graphics {
+            position: fixed;
+            bottom: 10px;
+            width: 300px;
+            height: auto;
+        }
+        .left-graphic {
+            left: 10px;
+        }
+        .right-graphic {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="container">
+        <h1>Antonblast MIDI Collection</h1>
+        <ul class="song-list">
+            <li>
+                <strong>Menu Theme - Antonball Deluxe</strong><br>
+                <a href="assets/midi/mu_antontitle_pc.mid">Download MIDI</a> | 
+                <a href="assets/midi/mu_antontitle_pc.mp3">Preview MP3</a>
+            </li>
+            <li>
+                <strong>Vs. Sewer Slam/Dot Matrix</strong><br>
+                <a href="assets/midi/mu_antonsewers_pc.mid">Download MIDI</a> | 
+                <a href="assets/midi/mu_antonsewers_pc.mp3">Preview MP3</a>
+            </li>
+            <li>
+                <strong>Dynamite Man... in Boiler City!</strong><br>
+                <a href="assets/midi/mu_antonlevel_pc.mid">Download MIDI</a> | 
+                <a href="assets/midi/mu_antonlevel_pc.mp3">Preview MP3</a>
+            </li>
+            <li>
+                <strong>The Hammer and the Mace... in Slowroast Sewers!</strong><br>
+                <a href="assets/midi/mu_antonlevel2_pc.mid">Download MIDI</a> | 
+                <a href="assets/midi/mu_antonlevel2_pc.mp3">Preview MP3</a>
+            </li>
+            <li>
+                <strong>Here Comes The Bucket Brigade ...Beat the Bossbusters!</strong><br>
+                <a href="assets/midi/mu_antonboss_pc.mid">Download MIDI</a> | 
+                <a href="assets/midi/mu_antonboss_pc.mp3">Preview MP3</a>
+            </li>
+        </ul>
+        <a class="back-button" href="index.html">Back to Spamton Collection</a>
+    </div>
+    <img src="assets/images/ballbuster.png" class="corner-graphics left-graphic" alt="Ballbuster Graphic">
+    <img src="assets/images/pippo.png" class="corner-graphics right-graphic" alt="Pippo Graphic">
+</body>
 </html>
