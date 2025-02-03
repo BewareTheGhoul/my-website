@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The Ring</title>
+    <link rel="icon" href="assets/images/secret.png">
+    <style>
+        body {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .centered-image {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/images/ding.png" class="centered-image" onclick="playSound()">
+    <audio id="soundEffect" src="assets/non midi sounds/ding.mp3"></audio>
+    <script>
+        function playSound() {
+            document.getElementById('soundEffect').play();
+        }
+    </script>
+</body>
+</html>

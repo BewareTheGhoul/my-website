@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>The MIDI Tower</title>
+    <link rel="icon" href="assets/images/peppinoface.png">
+    <style>
+        body {
+            background: url('assets/images/pizzaback.png');
+            color: #000000;
+            font-family: Comic Sans MS, cursive;
+            text-align: center;
+        }
+        .header {
+            background: #9C7A9C;
+            padding: 10px;
+            border: 5px dashed #5E3C5E;
+        }
+        .content {
+            background: #9C4269;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 5px solid #803868;
+        }
+        .marquee {
+            font-size: 20px;
+            font-weight: bold;
+            color: #5E3C5E;
+        }
+        .blink {
+            animation: blinker 0.6s linear infinite;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        .midi-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .midi-box {
+            background: #FFC0CB;
+            border: 3px solid #803868;
+            padding: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        .midi-box audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to The MIDI Tower! 🍕🎶</h1>
+        <marquee class="marquee">Home of the Cheesiest MIDIs on the Web!</marquee>
+    </div>
+    <div class="content">
+        <h2 class="blink">🔥 Hot Fresh MIDIs! 🔥</h2>
+        <div class="midi-container">
+            <div class="midi-box">
+                <a href="assets/midi/mu_title_pc.mid">Pizza Deluxe</a>
+                <audio controls><source src="assets/midi/mu_title_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_tutorial_pc.mid">funiculi holiday.</a>
+                <audio controls><source src="assets/midi/mu_tutorial_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_pizzatime_pc.mid">It's Pizza Time!</a>
+                <audio controls><source src="assets/midi/mu_pizzatime_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_chase_pc.mid">The Death that I Deservioli</a>
+                <audio controls><source src="assets/midi/mu_chase_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_noiseentrance_pc.mid">The Noise's Jam Packed Radical Anthem</a>
+                <audio controls><source src="assets/midi/mu_noiseentrance_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_noiseescapeOLD_pc.mid">Pesto Anchovi</a>
+                <audio controls><source src="assets/midi/mu_noiseescapeOLD_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_tropical_pc.mid">Tropical Crust</a>
+                <audio controls><source src="assets/midi/mu_tropical_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_pinball_pc.mid">Extraterrestrial Wah-Wahs</a>
+                <audio controls><source src="assets/midi/mu_pinball_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="midi-box">
+                <a href="assets/midi/mu_satanchoice_pc.mid">On the Rocks!</a>
+                <audio controls><source src="assets/midi/mu_satanchoice_pc.mp3" type="audio/mpeg"></audio>
+            </div>
+        </div>
+        <img src="assets/images/peppinodancing.gif">
+        <p>Want to submit a MIDI? Email <b>paneandheartache@gmail.com</b> and you'll be credited!</p>
+        <a class="back-button" href="index.html">Back to Main Menu</a>
+    </div>
+    <footer>
+        <p>© 9000 BC- 2025 Pizza Tower MIDIs - All Rights Reserved blah blah blah 🍕</p>
+    </footer>
+</body>
+</html>
