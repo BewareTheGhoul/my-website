@@ -1,111 +1,68 @@
-<!doctype html>
-
-<html lang="en-US">
-
-	<head>
-		<meta charset="utf-8" />
-		<title>ITS HIM!</title>
-        <link rel="stylesheet" href="styles/styles.css" />
-        <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
-	</head>
-
-	<body>
-        <img src="assets/images/banner.png"
-        class="banner"
-        title="Hey Woodpecker!"
-        width="512" height="400"
-        alt="Who's this handsome fellow?" />
-
-        <p>
-            <a href="https://www.youtube.com/@spurrit7156">my youtube thing</a>
-        </p>
-
-        <p>
-            <a href="anton_midis.html">Have a blast with the Anton Collection!</a>
-        </p>
-		
-        <p>
-            <a href="earthbound-midi-collection.html">Take a Gander at some Earthbound MIDI!</a>
-        </p>
-
-        <h1>spamton collection</h1>
-
-        <div class="midiinfo">
-            <p>HEY EVERY !</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtonintro_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtonintro_pc.mid">collect his soul essence (4 KB)</a>
-            </p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MIDI Collections Hub</title>
+    <link rel="icon" href="assets/images/hubicon.png">
+    <style>
+        body {
+            background: url('assets/images/background.png');
+            color: #000000;
+            font-family: Comic Sans MS, cursive;
+            text-align: center;
+        }
+        .header {
+            background: #FFD700;
+            padding: 10px;
+            border: 5px dashed #B8860B;
+        }
+        .collection-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .collection-box {
+            background: #FFA07A;
+            border: 3px solid #CD5C5C;
+            padding: 10px;
+            width: 50%;
+            margin: 10px 0;
+        }
+        .collection-box img {
+            width: 100px;
+            height: 100px;
+        }
+        .secret-button {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to the MIDI Collections Hub! 🎵</h1>
+    </div>
+    <div class="collection-container">
+        <div class="collection-box">
+            <img src="assets/images/spamton.png" alt="Spamton Collection">
+            <a href="spamton.html">Spamton's MIDI Collection</a>
         </div>
-
-        <div class="midiinfo">
-            <p>Spamton.</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtonmeeting_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtonmeeting_pc.mid">collect his soul essence (19.8 KB)</a>
-            </p>
+        <div class="collection-box">
+            <img src="assets/images/anton.png" alt="Anton MIDI Collection">
+            <a href="anton_midis.html">Anton’s MIDI Collection</a>
         </div>
-
-        <div class="midiinfo">
-            <p>NOW'S YOUR CHANCE TO BE A</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtonboss_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtonboss_pc.mid">collect his soul essence (46.5 KB)</a>
-            </p>
+        <div class="collection-box">
+            <img src="assets/images/earthbound.png" alt="Earthbound MIDI Collection">
+            <a href="earthbound-midi-collection.html">Earthbound MIDI Collection</a>
         </div>
-
-        <div class="midiinfo">
-            <p>Dialtone.</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtonshop_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtonshop_pc.mid">collect his soul essence (1.79 KB)</a>
-            </p>
+        <div class="collection-box">
+            <img src="assets/images/pizzatower.png" alt="Pizza Tower MIDI Collection">
+            <a href="pizzatower.html">Pizza Tower MIDI Collection</a>
         </div>
-
-        <div class="midiinfo">
-            <p>KEYGEN (by DetunedKeys)</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtontransfer_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtontransfer_pc.mid">collect his soul essence (1.82 KB)</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>BIG SHOT!</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/mu_spamtonneo_pc.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/mu_spamtonneo_pc.mid">collect his soul essence (104 KB)</a>
-            </p>
-        </div>
-
-        <div class="midiinfo">
-            <p>wait what this isn't spamton</p>
-            <p>
-                <audio controls>
-                    <source src="assets/midi/MEGALOVANIA.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-                <a href="assets/midi/MEGALOVANIA.mid">CLICK H3RE TO HAVE A [[Bad Time]] (70.4 KB)</a>
-            </p>
-        </div>
-
-	</body>
+    </div>
+    <div class="secret-button">
+        <a href="ring.html">
+            <img src="assets/images/secret.png" alt="Secret Button">
+        </a>
+    </div>
+</body>
 </html>
